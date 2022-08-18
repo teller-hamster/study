@@ -1,4 +1,4 @@
-let numberOfFilms;
+/*let numberOfFilms;
 
 function start(){
     numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
@@ -76,5 +76,12 @@ const newArr = []
 
     newArr.map(film => {
         console.log(film)
+    }) */
+
+    const array = [1, 2, 3, 56, 89]
+    const array2 = []
+    array.map((item, index) => {
+        item > 3 && item < 88 ? array2.push(item) : console.log(item)
+        console.log(array2)
     })
     
